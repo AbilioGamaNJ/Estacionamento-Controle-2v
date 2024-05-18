@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 --Instalando o Node Modules
 Para instalar o Node Modules, basta entrar na pasta do projeto, abrir o terminal e usar o comando: npm install
 
@@ -9,3 +10,7 @@ Para inicializar o projeto, insira no terminal o comando: npm run dev
 Quando for testar se o Cadastro está funcionando no log. Tem que abrir de antemão o console no F12.
 
 Sendo sincero não sei o motivo, mas quando clica no "Ok" do Alert, o save do console.log some.
+=======
+# Estacionamento-Controle-2v
+Trabalho da matéria de Desenvolvimento Web(Senai), segunda avaliação.
+>>>>>>> 3cda453f043f2fa5459ee89053d7710f1e44b8c5

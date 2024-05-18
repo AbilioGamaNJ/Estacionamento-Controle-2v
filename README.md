@@ -1,4 +1,5 @@
-
+--Baixando o projeto em seu computador
+Para começar, clique no botão verde "Code" e copie o link do repositório. Em seguida, no terminal de seu cumputador, digite "git clone" e cole o código copiado
 --Instalando o Node Modules
 Para instalar o Node Modules, basta entrar na pasta do projeto, abrir o terminal e usar o comando: npm install
 

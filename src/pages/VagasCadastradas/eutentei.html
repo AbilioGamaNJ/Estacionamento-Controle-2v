@@ -1,0 +1,57 @@
+<!-- import "./styles.css";
+import {
+  BsPersonStanding,
+  BsCarFrontFill,
+  BsFillBuildingFill,
+  BsHouseFill,
+} from "react-icons/bs";
+import { Navbar } from "../../components/Navbar";
+
+export function VagasCadastradas() {
+  const vagas = Array(3)
+    .fill({
+      pessoa: "Pessoa",
+      vaga: "Vaga",
+      bloco: "Bloco",
+      apartamento: "Apartamento",
+    })
+    .map(
+      (item, index) =>
+        `${item.pessoa} ${index + 1} ${item.vaga} ${index + 1} ${item.bloco} ${
+          index + 1
+        } ${item.apartamento} ${index + 1}`
+    );
+
+  return (
+    <>
+      <Navbar />
+      <div className="titulo">
+        <h1>Vagas Cadastras</h1>
+      </div>
+      <div className="container">
+        <div className="vagas-box">
+          {vagas.map((pessoa, vaga, bloco, apartamento) => (
+            <>
+              <div key={pessoa} className="elements-group">
+               <BsPersonStanding className="icons"/> 
+                <p>{pessoa}</p>
+              </div>
+              <div key={vaga} className="elements-group">
+                <BsCarFrontFill className="icons" />
+                <p>{vaga}</p>
+              </div>
+              <div key={bloco}className="elements-group">
+                <BsFillBuildingFill className="icons" />
+                <p>{bloco}</p>
+              </div>
+              <div key={apartamento} className="elements-group">
+                <BsHouseFill className="icons" />
+                <p>{apartamento}</p>
+              </div>
+            </>
+          ))}
+        </div>
+      </div>
+    </>
+  );
+} -->
